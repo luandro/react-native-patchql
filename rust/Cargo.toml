@@ -1,5 +1,6 @@
 [workspace]
 members = [
   "mobile_app",
+  "ssb-patchql"
 ]
 

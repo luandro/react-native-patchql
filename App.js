@@ -70,12 +70,12 @@ export default class App extends Component<{}> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          React Native with Rust demo
         </Text>
         <Text style={styles.instructions}>
           {this.state.message}
         </Text>
-        <Text style={styles.instructions}>
+        {/* <Text style={styles.instructions}>
           Private Key: {this.state.privateKey}
         </Text>
         <Text style={styles.instructions}>
@@ -89,7 +89,7 @@ export default class App extends Component<{}> {
         </Text>
         <Text style={styles.instructions}>
           Negative Verification Result (should fail): {this.state.neg_reply ? "Signature Verified" : "Failed to Verify"}
-        </Text>
+        </Text> */}
       </View>
     )
   }
