@@ -16,6 +16,13 @@ Additionally the Android deployment requires the SDK for Android API 21 and the 
 * Do NOT use brew/apt to install the Android SDK/NDK. Download the official version from the website.
 * You may need to accept the Xcode license agreement in order to build: `sudo xcodebuild -license`
 
+## Sub Modules 
+
+Be sure to clone wit --recursive flag, as this repo contains sub modules. For example
+```shell
+git clone --recursive https://github.com/luandro/react-native-patchql.git
+```
+
 ## Building
 
 Both Android and iOS require that the NPM dependencies for React Native be installed locally and the `react-native-cli` globally.
