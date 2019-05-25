@@ -1,0 +1,3 @@
+[submodule "rust/ssb-patchql"]
+	path = rust/ssb-patchql
+	url = https://github.com/sunrise-choir/ssb-patchql.git
